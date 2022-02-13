@@ -1,0 +1,20 @@
+{
+  "name": "selenium-tests",
+  "version": "1.0.0",
+  "description": "This project contains scripts for testing https://www.saucedemo.com/",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test-suite": "env FULL_SUITE=true node index.js",
+    "test": "env FULL_SUITE=false node index.js"
+  },
+  "author": "Muneeb Ahmad",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^98.0.0",
+    "glob": "^7.2.0",
+    "inquirer": "^8.2.0",
+    "node-emoji": "^1.11.0",
+    "selenium-webdriver": "^4.1.1"
+  }
+}
