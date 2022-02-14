@@ -1,7 +1,7 @@
 import selector from "../selector.js"
 import mockData from "../mockData.js"
 
-export const description = "This tests the add to cart feature after loging in to system"
+export const description = "This tests the add to cart feature after logging in to system"
 
 async function TestCase8(_this) {
     try {

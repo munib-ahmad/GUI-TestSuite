@@ -1,5 +1,4 @@
 import selector from "../selector.js"
-import mockData from "../mockData.js"
 
 export const description = 'This tests the access to cart page without login'
 

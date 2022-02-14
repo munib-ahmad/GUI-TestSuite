@@ -1,7 +1,7 @@
 import selector from "../selector.js"
 import mockData from "../mockData.js"
 
-export const description = "This tests the checkout flow from adding item in cart and filling checkoutform"
+export const description = "This tests the checkout flow from adding items to the cart and filling the checkout form"
 
 async function TestCase10(_this) {
     try {

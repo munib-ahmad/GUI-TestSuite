@@ -1,7 +1,6 @@
 import selector from "../selector.js"
-import mockData from "../mockData.js"
 
-export const description = 'This tests the access to inventory page without login'
+export const description = 'This tests the access to the inventory page without login'
 
 async function TestCase3(_this) {
     try {

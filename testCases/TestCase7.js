@@ -1,7 +1,7 @@
 import selector from "../selector.js"
 import mockData from "../mockData.js"
 
-export const description = "This tests that procuts are sorted correctly with prices on inventory page after login (DESC)"
+export const description = "This tests that products are sorted correctly with prices on the inventory page after login (DESC)"
 
 async function TestCase7(_this) {
     try {
@@ -12,7 +12,7 @@ async function TestCase7(_this) {
         await _this.login(mockData.standardUser.username, mockData.standardUser.password)
 
         await _this.clickBtn(selector.inventory.sortOptions.btn)
-        await _this.wait(100)
+        await _this.wait(200)
         await _this.clickBtn(selector.inventory.sortOptions.priceDesc)
 
         let prices = await _this.getElements(selector.inventory.priceSelector)

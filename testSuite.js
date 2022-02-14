@@ -33,7 +33,7 @@ async function TestSuite(weburl) {
         for (const testCase of testCases) {
             try {
                 const result = await util.execute(testCase.default)
-                await util.wait(100)
+                await util.wait(200)
                 results.push({ result, name: testCase.default.name })
             } catch (error) {
                 console.log(error)
